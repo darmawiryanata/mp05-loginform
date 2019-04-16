@@ -22,6 +22,7 @@
         android:layout_height="wrap_content"
         android:text="Buku"
         android:id="@+id/BtnBuku"
-        android:layout_gravity="center_horizontal" />
+        android:layout_gravity="center_horizontal"
+        android:onClick="actBuku"/>
 
 </LinearLayout>
