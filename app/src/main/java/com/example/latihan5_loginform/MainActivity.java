@@ -1,5 +1,6 @@
 package com.example.latihan5_loginform;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -30,5 +31,8 @@ public class MainActivity extends AppCompatActivity {
         stUsername = username.getText() + "";
         stPassword = password.getText() + "";
         toastMsg("Selamat datang "+stUsername+"!");
+
+        Intent impl = new Intent(MainActivity.this,MainMenuActivity.class);
+        startActivity(impl);
     }
 }
